@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: aliceblue;
+  }
+
+  img{
+    width: 100px;
+    height: 100px;
+  }
+  img, h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+
+  header, main, footer {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    margin-top: 0;
+    color: red;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .page{
+    color: green;
+  }
+  
+  /* Styles pour les écrans de moins de 768 pixels */
+  
+  @media screen and (max-width: 767px) {
+    header {
+      text-align: center;
+    }
+    
+    nav ul {
+      flex-direction: column;
+    }
+    
+    nav li {
+      margin: 10px 0;
+    }
+  }
+  
+  /* Styles pour les écrans de 768 à 1024 pixels */
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    nav ul {
+      flex-direction: row;
+    }
+    
+    nav li {
+      margin: 0;
+    }
+  }
+  
+  /* Styles pour les écrans de plus de 1024 pixels */
+  
+  @media screen and (min-width: 1025px) {
+    main {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    section {
+      flex-basis: 48%;
+    }
+  }
+  
