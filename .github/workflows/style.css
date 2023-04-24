@@ -73,7 +73,53 @@ body {
     justify-content: center;
   }
 
+  h3{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
 
+  h4{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;    
+  }
+
+  h5{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+  }
+
+
+  div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img4{
+    width: 400px;
+    height: 400px;
+  }
+
+  .img5{
+    width: 600px;
+    height: 400px
+  }
+
+  .img6{
+    width: 400px;
+    height: 400px    
+  }
   
   /* Styles pour les écrans de moins de 768 pixels */
   
